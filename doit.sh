@@ -1,1 +1,1 @@
-[[ ! -e ~/.emacs.d/.emacs ]] && ln -s .emacs ~/.emacs.d/.emacs
+[[ ! -e ~/.emacs.d/.emacs ]] && ln -s $(pwd)/.emacs ~/.emacs.d/.emacs
